@@ -12,8 +12,11 @@
 }
 .top-pic-container{
     background-color: gray;
-    width: 500px;
+    width: 465px;
     height: 250px;
+}
+.top-pic-container img{
+    height: 100%;
 }
 
 .top-text{
@@ -29,6 +32,7 @@
 }
 .sub-text{
     margin-top: 5px;
+    width: 400px;
     color: rgb(202, 197, 197);
 }
 .signup-btn{
@@ -57,6 +61,9 @@
 
 
 .pic-preview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 5px solid #3882f6;
     border-radius: 25px;
     width: 200px;
@@ -74,6 +81,22 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.meta-logo{
+    width: 90%;
+}
+.apple-logo{
+    width: 100%;
+}
+.netflix-logo{
+    width: 100%;
+}
+.google-logo{
+    width: 90%;
+}
+.amazon-logo{
+    width: 100%;
+}
+
 .description{
     color: #1f2937;
 }
