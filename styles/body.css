@@ -2,3 +2,43 @@
     margin: 0;
     font-family: sans-serif;
 }
+.top-body{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.top-pic-container{
+    background-color: gray;
+    width: 500px;
+    height: 250px;
+}
+
+.top-text{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    margin-right: 50px;
+}
+.main-text{
+    width: 300px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.sub-text{
+    margin-top: 5px;
+    color: rgb(202, 197, 197);
+}
+.signup-btn{
+    margin-top: auto;
+    width: 150px;
+    font-weight: bold;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px 20px;
+
+}
