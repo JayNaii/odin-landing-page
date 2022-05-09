@@ -134,4 +134,20 @@
     margin-right: 50px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100px;
+    background-color: #1f2937;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+footer div{
+    color: white;
+    z-index: 1;
+}
+
 
